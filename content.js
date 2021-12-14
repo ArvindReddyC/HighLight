@@ -7,7 +7,7 @@ $("p").each(function(){
         var p = "" ; 
         var FullStops = text.split(". ");
         FullStops.forEach(Element => {
-            p  = p + "<span>" + Element +  "." + "</span>";
+            p  = p + "<span>" + Element +  ". " + "</span>";
         });
         $(this).html(p);
     }
